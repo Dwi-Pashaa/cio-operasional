@@ -1,6 +1,6 @@
 @extends('layouts.auth')
 
-@section('title', 'Verifikasi OTP')
+@section('title', 'Verifikasi OTP - CIO Operasional')
 
 @push('css')
 <style>
@@ -37,9 +37,9 @@
         <div class="avatar avatar-md bg-blue-subtle text-primary rounded-circle mb-3 mx-auto" style="width: 48px; height: 48px; display: inline-flex; align-items: center; justify-content: center;">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" /><path d="M9 11l3 3l6 -6" /></svg>
         </div>
-        <h2 class="card-title fw-bold">Verifikasi Kode OTP</h2>
+        <h2 class="card-title fw-bold">Verifikasi OTP - CIO Operasional</h2>
         <p class="card-subtitle text-muted mb-2">
-            Masukkan 6 digit kode verifikasi yang telah dikirimkan ke:
+            Masukkan 6 digit kode verifikasi untuk mengakses CIO Operasional yang telah dikirimkan ke:
         </p>
         <div class="otp-channel-badge text-dark font-monospace fw-semibold d-inline-block">
             {{ $sentTo }}

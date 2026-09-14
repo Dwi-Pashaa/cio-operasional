@@ -1,10 +1,10 @@
 @extends('layouts.auth')
 
-@section('title', 'Login Portal')
+@section('title', 'Login - CIO Operasional')
 
 @section('content')
     <div class="text-center mb-4">
-        <h2 class="card-title">Masuk ke Akun Anda</h2>
+        <h2 class="card-title">Masuk ke CIO Operasional</h2>
         <p class="card-subtitle">Silakan masukkan kredensial akun untuk mengakses sistem CIO Operasional</p>
     </div>
 
